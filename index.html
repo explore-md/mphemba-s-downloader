@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MPHEMBA FILES</title>
+  <style>
+    body {
+      background-color: #fff;
+      font-family: 'Courier New', monospace;
+      color: #000;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .pulse-btn {
+      background-color: #00ff88;
+      border: none;
+      color: black;
+      padding: 12px 24px;
+      margin: 10px;
+      font-size: 18px;
+      border-radius: 30px;
+      animation: pulse 2s infinite;
+      cursor: pointer;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    .file-list {
+      display: none;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+
+    .file-btn {
+      background-color: #000;
+      color: #00ff88;
+      border: 1px solid #00ff88;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .social-icons img {
+      width: 30px;
+      height: 30px;
+      filter: drop-shadow(0 0 3px #00ff88);
+    }
+
+    .final-buttons {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>𝗠𝗣𝗛𝗘𝗠𝗕𝗔 𝗖𝗢𝗡𝗙𝗜𝗚 𝗙𝗜𝗟𝗘𝗦</h1>
+ <a href="https://t.me/darknessfreenetsquad/54" target="_blank">
+  <button class="pulse-btn">VPN's</button>
+</a>
+</div>
+  <div class="dropdown">
+    <button class="pulse-btn" onclick="toggleList()">Files</button>
+    <div class="file-list" id="fileList">
+        <a href="files/vodacom_gaming.hat" target="_blank">
+      <button class="file-btn">Vodacom</button>
+      <a href="files/mtn_mphemba.hat"target="_blank">
+      <button class="file-btn">MTN</button>
+      <a href="files/vodacom2_mphemba.hat"target="_blank">
+      <button class="file-btn">Vodacom2</button>
+      <a href="https://wa.me/27635360201" target="_blank">
+        <button class="file-btn">Telkom</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="social-icons">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Instagram">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="Telegram">
+    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="WhatsApp">
+  </div>
+
+  <div class="final-buttons">
+    <a href="https://whatsapp.com/channel/0029Vb5onWz96H4XoAijgw1F" target="_blank">
+      <button class="pulse-btn">WhatsApp Channel</button>
+    </a>
+    <a href="https://chat.whatsapp.com/FU4tXPnWneBHeeLif5BTtu?mode=ac_t" target="_blank">
+      <button class="pulse-btn">WhatsApp Group</button>
+    </a>
+  </div>
+
+  <script>
+    function toggleList() {
+      const list = document.getElementById("fileList");
+      list.style.display = list.style.display === "flex" ? "none" : "flex";
+    }
+  </script>
+
+</body>
+</html>
